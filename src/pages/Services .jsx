@@ -39,11 +39,11 @@ const Services = () => {
   ];
 
   return (
-    <div className="bg-gray-50 py-16 px-6 md:px-12 lg:px-20">
+    <div className="bg-gray-50 py-30 px-6 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-700">
+          <h2 className="text-3xl md:text-5xl font-bold text-blue-700">
             Our <span className="text-gray-800">Services</span>
           </h2>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">

@@ -1,3 +1,5 @@
+import { Facebook, Instagram, Globe } from "lucide-react";
+
 const Footer = () => {
   return (
     <footer className="bg-blue-700 text-white py-10">
@@ -48,23 +50,22 @@ const Footer = () => {
         {/* Contact Info */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-          <p className="text-gray-200">123 Business Street, New Delhi, India</p>
-          <p className="text-gray-200 mt-2">Email: support@easytax.com</p>
-          <p className="text-gray-200 mt-2">Phone: +91 98765 43210</p>
+          <p className="text-gray-200">Calgary - Alberta</p>
+          <p className="text-gray-200 mt-2">
+            Email: Easytaxandparalegal@gmail.com
+          </p>
+          <p className="text-gray-200 mt-2">Phone: 403-471-1298</p>
 
           {/* Social Media */}
           <div className="flex space-x-4 mt-4">
             <a href="#" className="hover:text-gray-300">
-              🌐
+              <Globe size={22} />
             </a>
             <a href="#" className="hover:text-gray-300">
-              📘
+              <Facebook size={22} />
             </a>
             <a href="#" className="hover:text-gray-300">
-              🐦
-            </a>
-            <a href="#" className="hover:text-gray-300">
-              📸
+              <Instagram size={22} />
             </a>
           </div>
         </div>

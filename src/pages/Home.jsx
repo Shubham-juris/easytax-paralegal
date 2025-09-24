@@ -1,5 +1,5 @@
 import React from "react";
-
+import image from "../assets/home/26685.jpg";
 export default function Home() {
   return (
     <div className="pt-16">
@@ -32,7 +32,7 @@ export default function Home() {
           {/* Right Image - Updated */}
           <div className="flex-1 mt-10 md:mt-0">
             <img
-              src="https://storyset.com/illustration/taxation/amico"
+              src={image}
               alt="Tax Filing Illustration"
               className="w-full max-w-md mx-auto"
             />
@@ -77,9 +77,11 @@ export default function Home() {
         </div>
       </section>
       {/* Call to Action */}
-      <section className="bg-blue-700 py-16 text-center text-white">
-        <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
-        <p className="mb-6">
+      <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-16 text-center text-white">
+        <h2 className="text-3xl font-bold mb-4 text-blue-700">
+          Ready to Get Started?
+        </h2>
+        <p className="mb-6 text-black -700">
           Let us handle your taxes and legal documents with ease and confidence.
         </p>
         <button className="bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg shadow hover:bg-gray-100 transition">

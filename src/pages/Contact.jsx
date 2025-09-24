@@ -1,10 +1,10 @@
 const Contact = () => {
   return (
-    <div className="bg-gray-50 py-16 px-6 md:px-12 lg:px-20">
+    <div className="bg-gray-50 py-30 px-6 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-700">
+          <h2 className="text-3xl md:text-5xl font-bold text-blue-700">
             Contact <span className="text-gray-800">Us</span>
           </h2>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
@@ -23,6 +23,7 @@ const Contact = () => {
                   Name
                 </label>
                 <input
+                  required
                   type="text"
                   placeholder="Your Name"
                   className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-700 focus:outline-none"
@@ -34,6 +35,7 @@ const Contact = () => {
                   Email
                 </label>
                 <input
+                  required
                   type="email"
                   placeholder="Your Email"
                   className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-700 focus:outline-none"
@@ -61,24 +63,24 @@ const Contact = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="flex flex-col justify-center space-y-6">
+          <div className="flex flex-col justify-center space-y-12 py-9">
             <div>
               <h3 className="text-xl font-semibold text-gray-800">
                 Our Office
               </h3>
-              <p className="text-gray-600 mt-2">
-                123 Business Street, New Delhi, India
-              </p>
+              <p className="text-gray-600 mt-2">Calgary- Alberta</p>
             </div>
 
             <div>
               <h3 className="text-xl font-semibold text-gray-800">Email</h3>
-              <p className="text-gray-600 mt-2">support@easytax.com</p>
+              <p className="text-gray-600 mt-2">
+                Easytaxandparalegal@gmail.com
+              </p>
             </div>
 
             <div>
               <h3 className="text-xl font-semibold text-gray-800">Phone</h3>
-              <p className="text-gray-600 mt-2">+91 98765 43210</p>
+              <p className="text-gray-600 mt-2">403-471-1298</p>
             </div>
 
             <div>
