@@ -35,7 +35,7 @@ const Contact = () => {
                   Email
                 </label>
                 <input
-                  required
+                  requiredx
                   type="email"
                   placeholder="Your Email"
                   className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-700 focus:outline-none"
@@ -68,13 +68,13 @@ const Contact = () => {
               <h3 className="text-xl font-semibold text-gray-800">
                 Our Office
               </h3>
-              <p className="text-gray-600 mt-2">Calgary- Alberta</p>
+              <p className="text-gray-600 mt-2">32 Ave NE, Calgary, AB, T2E 8A5</p>
             </div>
 
             <div>
               <h3 className="text-xl font-semibold text-gray-800">Email</h3>
               <p className="text-gray-600 mt-2">
-                Easytaxandparalegal@gmail.com
+           Easytaxparalegals@gmail.com
               </p>
             </div>
 
